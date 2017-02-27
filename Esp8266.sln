@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlynkThermostat", "BlynkThe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp8266I2c", "Esp8266I2c\Esp8266I2c.vcxproj", "{B1837258-3FAD-4F50-BF1D-67A334FA392A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WifiAdhoc", "WifiAdhoc\WifiAdhoc.vcxproj", "{F4C85241-0B74-4D15-B41B-A0B17454D494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,12 @@ Global
 		{B1837258-3FAD-4F50-BF1D-67A334FA392A}.Release|x64.ActiveCfg = Release|Win32
 		{B1837258-3FAD-4F50-BF1D-67A334FA392A}.Release|x86.ActiveCfg = Release|Win32
 		{B1837258-3FAD-4F50-BF1D-67A334FA392A}.Release|x86.Build.0 = Release|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Debug|x64.ActiveCfg = Debug|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Debug|x86.Build.0 = Debug|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x64.ActiveCfg = Release|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x86.ActiveCfg = Release|Win32
+		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,6 +16,7 @@
 #define __ets__
 #define ICACHE_FLASH
 #define F_CPU 80000000L
+#define LWIP_OPEN_SRC
 #define ARDUINO 10608
 #define ARDUINO_ESP8266_ESP01
 #define ARDUINO_ARCH_ESP8266
@@ -84,6 +85,7 @@ extern "C" void __cxa_pure_virtual() {;}
 
 
 #include <arduino.h>
+#include <common.h> 
 #include <pins_arduino.h> 
 #undef F
 #define F(string_literal) ((const PROGMEM char *)(string_literal))
@@ -102,4 +104,6 @@ extern "C" void __cxa_pure_virtual() {;}
 #define portInputRegister(P)
 #define portModeRegister(P)
 #include <..\Esp8266I2c\Esp8266I2c.ino>
+#include <..\Esp8266I2c\Hover.cpp>
+#include <..\Esp8266I2c\Hover.h>
 #endif
