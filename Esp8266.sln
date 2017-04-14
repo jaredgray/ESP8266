@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp8266", "Esp8266.vcxproj", "{7874238E-36A9-471F-BD7A-200198C1BF4E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WifiScan", "WifiScan\WifiScan.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlynkThermostat", "BlynkThermostat\BlynkThermostat.vcxproj", "{723B9023-502C-409C-BF8E-01B0CEA98BFC}"
@@ -12,6 +10,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp8266I2c", "Esp8266I2c\Esp8266I2c.vcxproj", "{B1837258-3FAD-4F50-BF1D-67A334FA392A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WifiAdhoc", "WifiAdhoc\WifiAdhoc.vcxproj", "{F4C85241-0B74-4D15-B41B-A0B17454D494}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EspWifiIOT", "EspWifiIOT\EspWifiIOT.vcxproj", "{9EE64592-70FA-4EBA-B494-88E219798879}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPromProvider", "..\..\..\..\Users\jared\Documents\Arduino\libraries\EEPromProvider\EEPromProvider.vcxitems", "{A50801EB-CCD6-43DD-9747-FB660E5AED88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Debug|x64.ActiveCfg = Debug|x64
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Debug|x64.Build.0 = Debug|x64
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Debug|x86.ActiveCfg = Debug|Win32
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Debug|x86.Build.0 = Debug|Win32
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Release|x64.ActiveCfg = Release|x64
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Release|x64.Build.0 = Release|x64
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Release|x86.ActiveCfg = Release|Win32
-		{7874238E-36A9-471F-BD7A-200198C1BF4E}.Release|x86.Build.0 = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.ActiveCfg = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
@@ -53,6 +47,12 @@ Global
 		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x64.ActiveCfg = Release|Win32
 		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x86.ActiveCfg = Release|Win32
 		{F4C85241-0B74-4D15-B41B-A0B17454D494}.Release|x86.Build.0 = Release|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Debug|x64.ActiveCfg = Debug|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Debug|x86.Build.0 = Debug|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Release|x64.ActiveCfg = Release|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Release|x86.ActiveCfg = Release|Win32
+		{9EE64592-70FA-4EBA-B494-88E219798879}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
